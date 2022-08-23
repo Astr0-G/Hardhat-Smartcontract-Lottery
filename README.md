@@ -10,7 +10,12 @@ yarn add --dev @nomiclabs/hardhat-ethers@npm:hardhat-deploy-ethers ethers @nomic
 ```
 yarn add --dev @nomiclabs/hardhat-ethers@npm:hardhat-deploy-ethers ethers @nomiclabs/hardhat-etherscan @nomiclabs/hardhat-waffle chai ethereum-waffle hardhat hardhat-contract-sizer hardhat-deploy hardhat-gas-reporter prettier prettier-plugin-solidity solhint solidity-coverage dotenv @typechain/ethers-v5 @typechain/hardhat @types/chai @types/node ts-node typechain typescript
 ```
-   
+    
+## ChainLink Subscription   
+https://vrf.chain.link/goerli/522
+## Raffle Keeper:
+https://keepers.chain.link/goerli/88522708102003897250005115001717278931709111845884211640152539345376275359980   
+
 ## Georli Testnet Test Contract:
 https://goerli.etherscan.io/address/0xcA2A5AA8F4084A83BfBC67F4B78050da96fFDA95   
 ## Uint Test Results:
