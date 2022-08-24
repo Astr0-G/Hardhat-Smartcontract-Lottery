@@ -143,7 +143,6 @@ const { assert, expect } = require("chai")
                       raffle.once("WinnerPicked", async () => {
                           console.log("WinnerPicked!")
                           try {
-
                               const recentWinner = await raffle.getRecentWinner()
                               const raffleState = await raffle.getRaffleState()
                               const winnerBalance = await accounts[2].getBalance()
@@ -168,6 +167,7 @@ const { assert, expect } = require("chai")
                               reject(e)
                           }
                       })
+                      console.log(raffleEntranceFee.toString())
                       const tx = await raffle.performUpkeep([])
                       const txReceipt = await tx.wait(1)
                       const startingBalance = await accounts[2].getBalance()
